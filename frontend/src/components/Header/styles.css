@@ -9,10 +9,14 @@
   position: fixed;
 }
 
-.main-header img {
-  width: 6%;
-  float: left;
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 30%;
   margin-right: 17%;
+  cursor: pointer;
 }
 
 .main-header h1 {
@@ -29,6 +33,21 @@
   color: #ffffff;
   padding-top: 10px;
   cursor: pointer;
+}
+
+.logo h1 {
+  width: 200px;
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top: 30px;
+  right: 60px;
 }
 
 .main-header h1#language {

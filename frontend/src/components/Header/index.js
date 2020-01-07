@@ -2,11 +2,16 @@ import React from "react";
 
 import "./styles.css";
 
-import Logo from "../../assets/Logo 4Ever.png";
+import Logo from "../../assets/LogoPNG.png";
 
 const Header = () => (
   <div className="main-header">
-    <img src={Logo} alt="" />
+    <div className="logo">
+      <img src={Logo} alt="" />
+      <h1>
+        4Ever Bits <sup>®</sup>
+      </h1>
+    </div>
 
     <div className="content">
       <h1 style={{ marginLeft: "0" }}>HOME</h1>
