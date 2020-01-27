@@ -12,8 +12,8 @@ import "./styles.css";
 
 const Feed = () => (
   <div className="feed">
-    <div className="news" style={{ marginLeft: "8%" }}>
-      <h1>NEWS</h1>
+    <div className="news">
+      <h1>News</h1>
 
       <div className="new">
         <img src={News1} alt="" />
@@ -41,14 +41,14 @@ const Feed = () => (
     </div>
 
     <div className="jobs">
-      <h1>JOBS</h1>
+      <h1>Jobs</h1>
 
       <h2>We are not hiring yet!</h2>
       <img src={Builder} alt="" />
     </div>
 
     <div className="communitys">
-      <h1>COMMUNITY</h1>
+      <h1>Community</h1>
 
       <div className="community">
         <div className="social-medias">
@@ -72,10 +72,10 @@ const Feed = () => (
             <div className="selfCenter standardWidth">
               <TwitterTimelineEmbed
                 sourceType="profile"
-                screenName="NiStPhG"
+                screenName="phsarauj_"
                 options={{
                   height: 100,
-                  width: 210
+                  width: 240
                 }}
                 theme="dark"
               />

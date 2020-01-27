@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+  top: 50px;
+  margin-top: 100px;
+  background-color: #1f1e1e;
+}
+
+.footer img {
+  height: 60px;
+}
+
+.footer-copyright {
+  background-color: #0f0f0f;
+}

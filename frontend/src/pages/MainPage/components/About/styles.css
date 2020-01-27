@@ -1,0 +1,58 @@
+.about {
+  text-align: justify;
+  text-align-last: center;
+  padding: 90px 0;
+}
+
+.about h1 {
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Verdana;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.about p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.about .percentage {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percentage .types {
+  width: 33%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+}
+
+.percentage .types p {
+  width: 60px;
+  text-align: left;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.types#blue {
+  color: #007bff;
+}
+
+.types#red {
+  color: #ff0000;
+}
+
+.types#yellow {
+  color: rgb(241, 210, 4);
+  margin-right: 0;
+}

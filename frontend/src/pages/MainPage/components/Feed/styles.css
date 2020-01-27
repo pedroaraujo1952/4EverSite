@@ -1,10 +1,15 @@
 .feed {
+  width: 90%;
   display: flex;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .feed div {
   margin: 0 auto;
-  width: 250px;
+  width: 280px;
 }
 
 .feed h1 {
@@ -34,7 +39,8 @@
 }
 
 .new img {
-  width: 250px;
+  width: 280px;
+  margin-bottom: 5px;
 }
 
 .new h2 {
@@ -122,10 +128,6 @@
   width: 50px;
   height: 50px;
   margin-right: 20px;
-  position: relative;
-  top: 5px;
-  position: relative;
-  top: 20px;
 }
 
 .comm-links img {

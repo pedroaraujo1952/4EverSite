@@ -1,0 +1,67 @@
+.projects {
+  /* max-height: 820px; */
+  padding: 86px 0;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: #0f1013;
+  color: #ffff;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.portfolio {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.portfolio .faceImg {
+  width: 280px;
+  height: 280px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  z-index: 1;
+}
+
+.portfolio .faceImg p {
+  display: none;
+}
+
+.portfolio .faceImg:hover:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  animation: fadeIn 0.5s;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.733));
+  z-index: -1;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.portfolio .faceImg:hover p {
+  display: block;
+  animation: fadeIn 0.5s;
+}
