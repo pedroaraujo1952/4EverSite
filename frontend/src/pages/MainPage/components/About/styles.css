@@ -23,12 +23,33 @@
   margin-bottom: 100px;
 }
 
+.about .knowMore {
+  /* width: 80%; */
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about .knowMore svg {
+  float: right;
+  cursor: pointer;
+}
+
 .about .percentage {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about .percentage {
+    display: block;
+  }
+
+  .about .percentage .types {
+    width: 100%;
+  }
 }
 
 .percentage .types {
@@ -41,11 +62,16 @@
   width: 60px;
   text-align: left;
   margin: 0;
+  margin-left: 10px;
+}
+.percentage .types .text {
+  display: flex;
   margin-top: 10px;
 }
 
 .types#blue {
   color: #007bff;
+  margin-right: 0;
 }
 
 .types#red {
@@ -54,5 +80,4 @@
 
 .types#yellow {
   color: rgb(241, 210, 4);
-  margin-right: 0;
 }

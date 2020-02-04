@@ -5,11 +5,6 @@ import Project2 from "../../../../assets/img2.jpg";
 import Project3 from "../../../../assets/img1.jpg";
 import Project4 from "../../../../assets/img2.jpg";
 import Project5 from "../../../../assets/img1.jpg";
-import Project6 from "../../../../assets/img2.jpg";
-import Project7 from "../../../../assets/img1.jpg";
-import Project8 from "../../../../assets/img2.jpg";
-import Project9 from "../../../../assets/img1.jpg";
-import Project10 from "../../../../assets/img2.jpg";
 
 import "./styles.css";
 
@@ -18,12 +13,12 @@ const portfolio = [
   Project2,
   Project3,
   Project4,
-  Project5,
-  Project6,
-  Project7,
-  Project8,
-  Project9,
-  Project10
+  Project5
+  // Project6,
+  // Project7,
+  // Project8,
+  // Project9,
+  // Project10
 ];
 
 const Projects = () => {

@@ -1,11 +1,12 @@
 import React from "react";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 
-import News1 from "../../../../assets/news.png";
+import News1 from "../../../../assets/controller.jpg";
+import News2 from "../../../../assets/mobile.png";
 import Instagram from "../../../../assets/insta.png";
 import Twitter from "../../../../assets/twitter.png";
 import Builder from "../../../../assets/builder.png";
-import GoG from "../../../../assets/gog.png";
+import GoG from "../../../../assets/epic.jpg";
 import Twitch from "../../../../assets/twitch.png";
 
 import "./styles.css";
@@ -17,8 +18,8 @@ const Feed = () => (
 
       <div className="new">
         <img src={News1} alt="" />
-        <h2 id="title">Jogo BlaBla: 20% OFF!</h2>
-        <h3 id="metadata">BlaBla | January 6, 2020</h3>
+        <h2 id="title">4Ever Bits: New game soon!</h2>
+        <h3 id="metadata">4Ever | February 3, 2020</h3>
         <p id="description">Lorem ipsum dolor sit amet, con... </p>
         <div className="newFooter">
           <p id="more">Read More</p>
@@ -28,9 +29,9 @@ const Feed = () => (
       </div>
 
       <div className="new">
-        <img src={News1} alt="" />
-        <h2 id="title">Jogo BlaBla: 20% OFF!</h2>
-        <h3 id="metadata">BlaBla | January 6, 2020</h3>
+        <img src={News2} alt="" />
+        <h2 id="title">4Ever Bits: New app soon!</h2>
+        <h3 id="metadata">4Ever | February 3, 2020</h3>
         <p id="description">Lorem ipsum dolor sit amet, con... </p>
         <div className="newFooter">
           <p id="more">Read More</p>
@@ -61,7 +62,7 @@ const Feed = () => (
         </div>
 
         <div className="comm-links">
-          <img src={GoG} alt="" />
+          <img src={GoG} alt="" style={{ border: "2px solid #183494" }} />
           <img src={Twitch} alt="" />
         </div>
 
@@ -74,7 +75,7 @@ const Feed = () => (
                 sourceType="profile"
                 screenName="phsarauj_"
                 options={{
-                  height: 100,
+                  height: 260,
                   width: 240
                 }}
                 theme="dark"

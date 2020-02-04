@@ -1,6 +1,7 @@
 .parallax {
   /* The image used */
   background-image: url("../../assets/bits.jpg");
+  background-color: #202124;
 
   /* height: 100%; */
   width: 100%;
@@ -40,7 +41,33 @@
   margin: auto;
 }
 
+.parallax .content div .buttons {
+  margin-top: 50px;
+}
+
 .parallax .content img {
   height: 30%;
   /* width: 30%; */
+}
+
+@media only screen and (max-width: 1000px) {
+  .parallax .content {
+    height: 60%;
+  }
+
+  .parallax .content h1 {
+    font-size: 18px;
+  }
+
+  .parallax .content p {
+    font-size: 14px;
+  }
+
+  .parallax .content .buttons {
+    margin-top: 20px;
+  }
+
+  .parallax .content .buttons button {
+    margin-bottom: 10px;
+  }
 }

@@ -7,7 +7,7 @@ import About from "./components/About/index";
 import Projects from "./components/Projects/index";
 import Contact from "./components/Contact/index";
 import Footer from "./components/Footer/index";
-import Alert from "./components/Alert/index";
+// import Alert from "./components/Alert/index";
 
 import Logo from "../../assets/LogoPNG.png";
 
@@ -39,7 +39,7 @@ export default class MainPage extends Component {
   render() {
     return (
       <div className="body">
-        <Alert />
+        {/* <Alert /> */}
         <Header />
 
         <div className="parallax">
@@ -47,11 +47,11 @@ export default class MainPage extends Component {
             <div>
               <img src={Logo} alt="" />
               <h1>
-                Any 4Ever beautiful and <br />
-                appealing text
+                4Ever Bits Alpha <br />
+                template site{" "}
               </h1>
-              <p>Any 4Ever beautiful and appealing subtitle</p>
-              <div style={{ marginTop: "50px" }}>
+              <p>Be For Us, Be 4Ever</p>
+              <div className="buttons">
                 <Button variant="danger" onClick={this.handleLearnMore}>
                   Learn More
                 </Button>{" "}

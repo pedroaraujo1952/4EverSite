@@ -47,3 +47,19 @@
   font-size: 22px;
   color: #383838;
 }
+
+@media only screen and (max-width: 1000px) {
+  .contact .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact .content .type h2 {
+    font-size: 14px;
+    /* text-align: left; */
+  }
+  .contact .content .email p {
+    font-size: 13px;
+    text-align: left;
+  }
+}

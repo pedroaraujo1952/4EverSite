@@ -7,6 +7,20 @@
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 1000px) {
+  .feed {
+    display: block;
+  }
+
+  .feed .jobs {
+    margin-top: 100px;
+  }
+
+  .feed .communitys {
+    margin-top: 100px;
+  }
+}
+
 .feed div {
   margin: 0 auto;
   width: 280px;
@@ -33,27 +47,29 @@
   background-color: #e1e1e1;
 }
 
-.new {
-  width: 250px;
+.feed .new {
+  width: 280px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .new img {
   width: 280px;
+  height: 150px;
   margin-bottom: 5px;
 }
 
 .new h2 {
-  width: 250px;
+  width: 280px;
   height: 39px;
   font-family: Verdana;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.22;
   letter-spacing: normal;
-  text-align: left;
+  text-align: justify;
   color: #585858;
 }
 
@@ -101,6 +117,7 @@
 .jobs h2 {
   width: 250px;
   height: 39px;
+  margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 20px;
   font-family: Verdana;
@@ -115,7 +132,7 @@
 }
 
 .jobs img {
-  margin-left: 10px;
+  margin-left: 10%;
 }
 
 .community {
@@ -132,6 +149,7 @@
 
 .comm-links img {
   width: 65%;
+  height: 125px;
   margin-top: 40px;
   margin-left: 18%;
   cursor: pointer;

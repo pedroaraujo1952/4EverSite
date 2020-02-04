@@ -1,5 +1,9 @@
 import React from "react";
 import { ProgressBar } from "react-bootstrap";
+import CodeIcon from "@material-ui/icons/Code";
+import SubjectIcon from "@material-ui/icons/Subject";
+import BrushIcon from "@material-ui/icons/Brush";
+import AddBoxIcon from "@material-ui/icons/AddBox";
 
 import "./styles.css";
 
@@ -7,27 +11,43 @@ const About = () => (
   <div className="about">
     <h1>About us</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu semper
-      enim, a pellentesque libero. In egestas quam et lorem interdum, vel
-      vehicula diam gravida. Morbi eget gravida nibh. Sed convallis pulvinar
-      magna vitae luctus. Sed non congue quam. Ut bibendum mi a porta fringilla.
-      Fusce sit amet porttitor odio, at malesuada massa. Morbi orci nisl,
-      interdum id tortor id, varius tristique quam. Donec est ex, ultricies nec
-      iaculis id, suscipit sed mi.
+      We are 4Ever Bits, a brazilian software development team created by PH and
+      Zeca. Our main purpose is to innovate by presenting new ideas, API's and
+      giving the consumer more options. Everything just to help the industry to
+      move forward and have the user's confidence, because, to us, no matter
+      what, but you, as a user of our technology, are always in the first place.
+      <br />
+      4Ever.
+      <div className="knowMore">
+        <AddBoxIcon />
+      </div>
     </p>
 
     <div className="percentage">
-      <div className="types" id="blue">
-        <ProgressBar now={60} label={`${60}%`} />
-        <p>Example</p>
-      </div>
       <div className="types" id="red">
         <ProgressBar now={82} label={`${82}%`} variant="danger" />
-        <p>Example</p>
+        <div className="text">
+          <CodeIcon />
+          <p>Programming</p>
+        </div>
       </div>
+
       <div className="types" id="yellow">
-        <ProgressBar now={86} label={`${86}%`} variant="warning" />
-        <p>Example</p>
+        <ProgressBar now={72} label={`${72}%`} variant="warning" />
+
+        <div className="text">
+          <SubjectIcon />
+          <p>Scripting</p>
+        </div>
+      </div>
+
+      <div className="types" id="blue">
+        <ProgressBar now={60} label={`${60}%`} />
+
+        <div className="text">
+          <BrushIcon />
+          <p>Designing</p>
+        </div>
       </div>
     </div>
   </div>
