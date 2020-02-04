@@ -11,11 +11,12 @@ const About = () => (
   <div className="about">
     <h1>About us</h1>
     <p>
-      We are 4Ever Bits, a brazilian software development team created by PH and
-      Zeca. Our main purpose is to innovate by presenting new ideas, API's and
-      giving the consumer more options. Everything just to help the industry to
-      move forward and have the user's confidence, because, to us, no matter
-      what, but you, as a user of our technology, are always in the first place.
+      We are 4Ever Bits, a brazilian software development team created by Pedro
+      Henrique Araújo and José Carlos Leão. Our main purpose is to innovate by
+      presenting new ideas, API's and giving the consumer more options.
+      Everything just to help the industry to move forward and have the user's
+      confidence, because, to us, no matter what, but you, as a user of our
+      technology, are always in the first place.
       <br />
       4Ever.
       <div className="knowMore">
